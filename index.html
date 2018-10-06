@@ -13,36 +13,35 @@
 
 </head>
 <body>
-  <header>
-   
-      <img src="img/logo.png" alt="" class="headerLogo"/>
-      <h1 class="headerFont">Delicious</h1>
-      <p class="annoyingFont">THE BEST FOOD BLOG ON THE WEB.</p>
-   
-    <nav>
-      <div id="headerIcons">
-        <ul>
-          <li><img src="img/fb-icon.png" alt="Facebook"/></li>
-          <li><img src="img/twit-icon.png" alt="Twitter"/></li>
-          <li><img src="img/fb-icon.png" alt="Facebook"/></li>
-          <li><img src="img/gp-icon.png" alt="Google"/></li>
-          <li><img src="img/insta-icon.png" alt="Instagram"/></li>
-          <li><img src="img/flic-icon.png" alt="Flickr"/></li>
-          <li><img src="img/pint-icon.png" alt="Pintrest"/></li><br>
-          <li><img src="img/rss-icon.png" alt="RSS"/></li>
-          <li><img src="img/mail-icon.png" alt="Email"/></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+    <header>
+        <div id="divHeader">
+          <img src="img/logo.png" alt="" class="headerLogo"/>
+          <h1 class="headerFont">Delicious</h1>
+          <p class="annoyingFont">THE BEST FOOD BLOG ON THE WEB.</p>
+        </div>
+            <nav>
+                <ul>
+                  <li><img src="img/fb-icon.png" alt="Facebook"/></li>
+                  <li><img src="img/twit-icon.png" alt="Twitter"/></li>
+                  <li><img src="img/fb-icon.png" alt="Facebook"/></li>
+                  <li><img src="img/gp-icon.png" alt="Google"/></li>
+                  <li><img src="img/insta-icon.png" alt="Instagram"/></li>
+                  <li><img src="img/flic-icon.png" alt="Flickr"/></li>
+                  <li><img src="img/pint-icon.png" alt="Pintrest"/></li>
+                  <li><img src="img/rss-icon.png" alt="RSS" id="rightIcons"/></li>
+                  <li><img src="img/mail-icon.png" alt="Email" id="rightIcons"/></li>
+                </ul>
+            </nav>
+      </header>
+ 
   <hr> 
 
   <h1>Chocolate Pizza</h1>
 
   <p id="postDate">POSTED ON 15 DEC 2013 / DESSERTS</p>
 
-  <img src="img/print-icon.png" alt="Print"/>
-  <p>PRINT</p>
+  <p id="print"> PRINT</p>
+  <img id="printer" src="img/print-icon.png" alt="Print"/>
 
   <img src="img/choco-pizza.png" alt="Chocolate Pizza" id="chocoPizza"/>
 
@@ -75,13 +74,13 @@
  
 
     <hr>
-  <img src="img/van-pic.png" alt="image of face"/>
+  <img id="vanessa" src="img/van-pic.png" alt="image of face"/>
+  <button id="shareButton">SHARE RECIPE</button>
   <h4>Vanessa Stevenson</h4>
   <p id="p4">food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am. </p>
-  <button id="shareButton">SHARE RECIPE</button>
 
   <footer id="footerID">
-      <img src="img/small-logo.png" alt="small logo"/>
+      <img id="footerlogo" src="img/small-logo.png" alt="small logo"/>
       <p id="footerText">Delicious &copy 2013 All Rights Reserved. <br> Proudly published with Ghost.</p>
   </footer>
 
