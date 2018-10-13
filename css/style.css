@@ -1,5 +1,5 @@
 body {
-  margin-left: 480px;
+  margin-left: 50px;
   margin-top: 30px;
 }
 
@@ -47,23 +47,23 @@ header div {
   left: 50px;
 }
 
-#print{
+#print {
   color:rgb(204, 204, 204);
   font-size: 10px;
   float: right;
 }
-#printer{
+#printer {
   float: right;
   margin-bottom: 15px;
 }
 
-h1{
+h1 {
 font-size: 30px;
 font-family: sans-serif;
 font-weight: bold;
 }
 
-#postDate{
+#postDate {
   font-family: sans-serif;
   color: rgb(153, 153, 153);
   font-size: 10px; 
@@ -92,32 +92,31 @@ width: 960px;
 
 .hero-image {
   background-image: url("../img/list-bg.png");
-  height: 50%;
+  height: 350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 960px;
   position: relative;
-  max-width: 960;
+  max-width: 960px;
 }
 
-#p1{
+#p1 {
   margin-bottom: 30px;
   color: rgb(153, 153, 153);
   font-size: 16px;
 }
 
-#p2{
+#p2 {
   margin-bottom: 30px;
   color: rgb(153, 153, 153);
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
 }
 
-#p3{
+#p3 {
   color: rgb(153, 153, 153);
   font-size: 16px;
 }
-
 
 .hero-text {
   text-align: left;
@@ -152,11 +151,17 @@ width: 960px;
 .strike {
   list-style-image: url('../img/checkbox.png');
 }
-#p4{color: rgb(153, 153, 153);
+
+#p4 {
+  padding-top: 5px;
+  color: rgb(153, 153, 153);
 }
+
 #vanessa {
   float: left;
+  padding-right: 15px;
 }
+
 button {
   color: white;
   background-color:rgb(209	117	80);
@@ -166,14 +171,19 @@ button {
 }
 
 #shareButton {
-  width:auto;
-  float:right;
+  width: auto;
+  float: right;
 }
-#footerlogo{
-float: center;
+
+#footerlogo {
+  margin-left: 380px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
+
 #footerText{
   color:rgb(204, 204, 204);
-  font-size: 10px;
+  font-size: 14px;
   text-align: center;
+  padding-bottom: 30px;
 }
